@@ -8,7 +8,7 @@ using namespace std ;
         int nbcourse = 5;
         int nbtours = 3;
         std::string _nomJoueur;
-        int score[3] = {20,30,40};
+        int _score[3] = {20,30,40};
     public:
         std::string getnomJoueur();
         Joueur(std::string nom, int score);
