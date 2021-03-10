@@ -8,6 +8,7 @@ using namespace std ;
 
 int main(){
     cout << "_____________________________________________________________" << endl ;
-    Joueur("Michelle",2);
+    
+    Joueur("Joueur un",2);
 
 };
