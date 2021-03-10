@@ -7,6 +7,7 @@
 using namespace std ;
 
 int main(){
-    std::cout << "_____________________________________________________________" << endl ;
-    Joueur JoueurUn = Joueur ("Michelle", 3);
+    cout << "_____________________________________________________________" << endl ;
+    Joueur("Michelle",2);
+
 };

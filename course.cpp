@@ -4,12 +4,24 @@
 
 using namespace std ;
 
-    Joueur::Joueur(std::string name, int score){};
+    Joueur::Joueur(std::string name, int score):_name name, {};
 
     std::string Joueur::getnomJoueur(){
-        std::cout << "Le nom du joueur est" << nomJoueur << endl;
+        cout << "Le nom du joueur est" << nomJoueur << endl;
         return nomJoueur;
     }
 
+    int meilleurscore(){
+        meilleur = score[0];
+        for (int i=0;i<2;i++){
+            if(score[i]< score[i+1]){
+                meilleur = score[i];
+            }
+        }
+    }
+
+    int gagnant(){
+
+    }
 
     
